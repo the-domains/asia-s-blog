@@ -1,28 +1,40 @@
-name: "Asia's Blog "
 favicon: null
-layout_spectrum: 0.6449492205865681
-typography_spectrum: 0.2576347643043846
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: "Asia's Blog "
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.2805983
+  brandStrength: 0.8417527710553259
+  lightness: 0.3667791
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.8417527710553259
-  lightness: 0.3896506412420422
-  saturation: 0.2805982802528888
-  rhythmicContrast: 0.4004703965038061
-purpose: []
+  rhythmicContrast: 0.4004704
+typography_spectrum: 0.2576347643043846
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.6449492205865681
+analytics:
+  twitter: null
+  google: null
+  facebook: null
