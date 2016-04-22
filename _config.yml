@@ -1,4 +1,8 @@
-layout_spectrum: 0
+favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 opengraph:
   image: null
   type: null
@@ -9,17 +13,17 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
-  saturation: 0.2805983
+  saturation: 0.8195488
   brandStrength: 0.8417527710553259
-  lightness: 0.3667791
+  lightness: 0.8421053
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
@@ -27,14 +31,10 @@ color:
     - '#5C6B73'
     - '#253237'
   rhythmicContrast: 0.4004704
-typography_spectrum: 0.2576347643043846
+typography_spectrum: 0.1021303
+layout_spectrum: 1
 cta:
   bucket: null
   version: null
   domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-favicon: null
 name: "Asia's Blog "
