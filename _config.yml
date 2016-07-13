@@ -1,6 +1,6 @@
 name: 'Asia''s Blog '
 favicon: null
-layout_spectrum: 1
+layout_spectrum: 0.50334
 typography_spectrum: 0.1021303
 collections:
   - index:
